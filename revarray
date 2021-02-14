@@ -1,0 +1,19 @@
+import java.util.*;
+public class revarray{
+    public static void main(String[] args) 
+    {         
+        ArrayList<String> revarray = new ArrayList<String>(); 
+       
+        revarray.add("A");         
+        revarray.add("B");        
+        revarray.add("C");
+        revarray.add("D");
+        revarray.add("E");         
+        revarray.add("F");
+        System.out.println("Before Reverse ArrayList:");         
+        System.out.println(revarray);
+        Collections.reverse(revarray);
+        System.out.println("After Reverse ArrayList:");         
+        System.out.println(revarray);
+    }
+}
